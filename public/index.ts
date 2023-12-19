@@ -1,10 +1,5 @@
-interface Person {
-  name: string;
-  age: number;
-}
-const person: Person = {
-  name: "jung",
-  age: 30,
-};
+let numbers: number[] = [1, 2, 3];
+let tuple: [string, number] = ["jung", 30];
 
-console.log(person);
+console.log(numbers);
+console.log(tuple);
