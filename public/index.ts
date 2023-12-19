@@ -1,5 +1,4 @@
-let numbers: number[] = [1, 2, 3];
-let tuple: [string, number] = ["jung", 30];
+type Status = "success" | "error";
+const result: Status = "success";
 
-console.log(numbers);
-console.log(tuple);
+console.log(result);
