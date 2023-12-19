@@ -1,6 +1,5 @@
-function add(x: number, y: number): number {
-  return x + y;
-}
-const result = add(4, 2);
+let myName: string = "jung";
+const myage: number = 30;
 
-console.log(result);
+console.log(myName);
+console.log(myage);
