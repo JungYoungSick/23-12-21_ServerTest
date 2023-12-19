@@ -1,5 +1,10 @@
-let myName: string = "jung";
-const myage: number = 30;
+interface Person {
+  name: string;
+  age: number;
+}
+const person: Person = {
+  name: "jung",
+  age: 30,
+};
 
-console.log(myName);
-console.log(myage);
+console.log(person);
