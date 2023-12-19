@@ -1,5 +1,6 @@
-function sayHello(name: string): void {
-  console.log(`Hello, ${name}!`);
+function add(x: number, y: number): number {
+  return x + y;
 }
-const myName: string = "JUNG";
-sayHello(myName);
+const result = add(4, 2);
+
+console.log(result);
